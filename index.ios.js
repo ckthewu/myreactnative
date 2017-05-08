@@ -113,11 +113,15 @@ const styles = StyleSheet.create({
   buttonBox: {
       marginTop: 10,
       width: '100%',
-      height: 32,
-      backgroundColor: '#fc541e'
+      height: 34,
+      backgroundColor: '#fc541e',
+      borderRadius: 5,
+      borderColor: '#fc541e',
+      borderWidth: 1,
+      overflow: 'hidden'
   },
   buttonText: {
-      lineHeight: 32,
+      lineHeight: 30,
       textAlign: 'center',
       color: '#FFF',
   }
